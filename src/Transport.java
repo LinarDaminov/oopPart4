@@ -36,6 +36,12 @@ public abstract class Transport {
 
     }
 
+    @Override
+    public String toString() {
+        return "Автомобиль марки: " + brand + ",Mодель: " + model + ",Объем двигателя: " + engineVolume +" "+ getClass();
+    }
+
+
     public abstract void startMove();
     public abstract void finishMove();
 }

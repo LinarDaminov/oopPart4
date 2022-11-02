@@ -1,7 +1,7 @@
 public interface Competing {
     String pitStop();
 
-    double theBestTime();
+    double bestTime ();
 
     double maxSpeed();
 }
