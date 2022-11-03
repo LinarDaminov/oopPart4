@@ -40,8 +40,5 @@ public class Main {
         System.out.println(daff.bestTime());
         System.out.println(paz.maxSpeed());
         System.out.println(toyota.pitStop());
-
     }
-
-
 }

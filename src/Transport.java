@@ -14,7 +14,6 @@ public abstract class Transport {
         }
 
     }
-
     public String getBrand() {
         return brand;
     }
