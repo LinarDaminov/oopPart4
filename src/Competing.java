@@ -4,4 +4,5 @@ public interface Competing {
     double bestTime ();
 
     double maxSpeed();
+
 }

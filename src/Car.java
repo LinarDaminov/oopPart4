@@ -6,17 +6,12 @@ public class Car extends Transport implements Competing {
 
     @Override
     public void startMove() {
-
     }
-
     @Override
     public void finishMove() {
-
     }
-
     @Override
     public String pitStop() {
-
         return "Пит стоп";
     }
 
@@ -25,9 +20,6 @@ public class Car extends Transport implements Competing {
         System.out.println();
         return 0.55;
     }
-
-
-
     @Override
     public double maxSpeed() {
         return 220;

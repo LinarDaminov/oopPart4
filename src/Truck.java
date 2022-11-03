@@ -5,17 +5,14 @@ public class Truck extends Transport implements Competing{
 
     @Override
     public void startMove() {
-
     }
 
     @Override
     public void finishMove() {
-
     }
 
     @Override
     public String pitStop() {
-
         return "Пит стоп";
     }
 
@@ -24,9 +21,6 @@ public class Truck extends Transport implements Competing{
         System.out.println();
         return 1.12;
     }
-
-
-
     @Override
     public double maxSpeed() {
         return 175;

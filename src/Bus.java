@@ -12,21 +12,16 @@ public class Bus extends Transport implements Competing {
     public void finishMove() {
 
     }
-
     @Override
     public String pitStop() {
 
         return "Пит стоп";
     }
-
     @Override
     public double bestTime() {
         System.out.println();
         return 1.05;
     }
-
-
-
     @Override
     public double maxSpeed() {
         return 150;
