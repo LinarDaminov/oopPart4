@@ -5,9 +5,7 @@ public class Bus extends Transport implements Competing {
 
     @Override
     public void startMove() {
-
     }
-
     @Override
     public void finishMove() {
 

@@ -33,9 +33,11 @@ public class Main {
         Driver<Car> petr = new Driver<>("Петров Петр Петрович", "B", 10);
         Driver<Truck> dima = new Driver<>("Дмитриев Дмитрий Дмитриевич", "C", 20);
 
+
         System.out.println(ivan.toString() +" "+ paz.toString() );
         System.out.println(petr.toString() +","+ bmw.toString() );
         System.out.println(dima.toString() +" "+ nefAz.toString() );
+
 
         System.out.println(daff.bestTime());
         System.out.println(paz.maxSpeed());

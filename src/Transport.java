@@ -32,7 +32,6 @@ public abstract class Transport {
         } else {
             this.engineVolume = engineVolume;
         }
-
     }
 
     @Override

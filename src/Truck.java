@@ -25,4 +25,5 @@ public class Truck extends Transport implements Competing{
     public double maxSpeed() {
         return 175;
     }
+
 }
