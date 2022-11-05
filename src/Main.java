@@ -29,14 +29,14 @@ public class Main {
         System.out.println(liAz.toString());
         System.out.println(nefAz.toString());
 
-        Driver<Bus> ivan  = new Driver<>("Иванов Иван Иванович", "D", 15);
-        Driver<Car> petr = new Driver<>("Петров Петр Петрович", "B", 10);
-        Driver<Truck> dima = new Driver<>("Дмитриев Дмитрий Дмитриевич", "C", 20);
+        Driver<Bus> ivan = new Driver<>("Иванов Иван Иванович", "D", 15, paz);
+        Driver<Car> petr = new Driver<>("Петров Петр Петрович", "B", 10,bmw);
+        Driver<Truck> dima = new Driver<>("Дмитриев Дмитрий Дмитриевич", "C", 20,daff);
 
 
         System.out.println(ivan.toString() +" "+ paz.toString() );
         System.out.println(petr.toString() +","+ bmw.toString() );
-        System.out.println(dima.toString() +" "+ nefAz.toString() );
+        System.out.println(dima.toString() +" "+ daff.toString() );
 
 
         System.out.println(daff.bestTime());

@@ -2,11 +2,16 @@ public  class Driver  <T extends Transport & Competing> {
     private final String driversName;
     private String driversLicense;
     private int experience;
+    private final T car;
 
-    public Driver(String driversName, String driversLicense, int experience) {
+
+    public Driver(String driversName, String driversLicense, int experience, T car) {
+
         this.driversName = driversName;
         this.driversLicense = driversLicense;
         this.experience = experience;
+        this.car = car;
+
     }
 
 
