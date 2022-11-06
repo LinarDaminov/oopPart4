@@ -1,6 +1,6 @@
 public class Truck extends Transport implements Competing{
     public Truck(String brand, String model, double engineVolume) {
-        super(brand, model, engineVolume);
+        super(brand, model, engineVolume );
     }
 
     @Override
@@ -25,4 +25,5 @@ public class Truck extends Transport implements Competing{
     public double maxSpeed() {
         return 175;
     }
+
 }
